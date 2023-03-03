@@ -1,7 +1,7 @@
 export default [
     {
         title: "Grand Canyon",
-        location: "Ontario 🇺🇸",
+        location: "Arizona 🇺🇸",
         googleMapsUrl: "https://goo.gl/maps/NUu6CjnKHcAS8RAEA",
         startDate: "12 August 2011",
         endDate: "16 August 2011",
@@ -13,7 +13,7 @@ export default [
     },
     {
         title: "Niagara Falls",
-        location: "Arizona 🇨🇦",
+        location: "Ontario 🇨🇦",
         googleMapsUrl: "https://goo.gl/maps/seeocdw37KkSxpAD8",
         startDate: "14 July 2014",
         endDate: "21 July 2014",
