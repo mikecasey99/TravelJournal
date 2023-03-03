@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  /* Every font in this project is inter */
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+/* Header Component */
+
+.header{
+  padding: .5em 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #F55A5A;
+  margin-bottom: 5em;
+}
+.header h1{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Location Component */
+
+.location{
+  max-width: 650px;
+  display: flex;
+  gap: 2em;
+  padding-bottom: 2em;
+}
+
+.location:not(:first-child){
+  padding-top: 2em;
+}
+
+.location:not(:last-child){
+  border-bottom: 1px solid #d2d2d4;
+}
+
+.location *{
+  margin: 0;
+}
+
+.location img{
+  width: 200px;
+  height: 275px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.maps{
+  display: flex;
+  gap: 1em;
+  margin-bottom: .2em;
+}
+
+.maps i{
+  /* Location icon */
+  color: #F55A5A;
+}
+
+.location-name{
+  letter-spacing: 2px;
+}
+
+.maps a{
+  color: #918E9B;
+}
+
+.name{
+  margin-bottom: .4em;
+}
+
+.date{
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.description{
+  font-weight: 400;
+}
+
+
+@media (max-width: 665px){
+
+  .header{
+    margin-bottom: 0;
+  }
+  .location{
+    padding: 2em 0;
+    width: 90%;
+    flex-direction: column;
+  }
+}
