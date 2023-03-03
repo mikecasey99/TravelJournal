@@ -17,7 +17,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/seeocdw37KkSxpAD8",
         startDate: "14 July 2014",
         endDate: "21 July 2014",
-        description: `Niagara Falls, a spectacular waterfall in the Niagra River, is the world's greatest waterfall by volume at 2832 m3. 
+        description: `Niagara Falls, a spectacular waterfall in the Niagara River, is the world's greatest waterfall by volume at 2832 m3. 
         It is split in two by Goat Island. The American Falls are 59 m high (21-34 m to rock debris at the base of the falls) 
         and 260 m wide and carry about 10% of the flow.`,
         imageURL: "https://source.unsplash.com/Xep4Bl2tKrE"
